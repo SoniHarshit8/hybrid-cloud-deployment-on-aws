@@ -2,8 +2,8 @@
  
  Overview:
 
-This project demonstrates how to deploy and manage a hybrid cloud infrastructure using AWS, Terraform, Docker, and Kubernetes.
-The goal was to automate provisioning, containerize applications, orchestrate workloads, and ensure scalability and reliability across environments.
+This project demonstrates how to deploy and manage a hybrid cloud infrastructure using AWS, Terraform, Docker and Kubernetes.
+The goal was to automate provisioning, containerize applications, orchestrate workloads and ensure scalability and reliability across environments.
 
  Objectives:
 
@@ -15,16 +15,16 @@ Enable CI/CD-style deployment and scalability
 
  Tools & Technologies:
 
-AWS EC2, VPC, IAM, S3, Route 53 – Cloud compute, networking, and storage
-Linux – Server environment & shell automation
+AWS - EC2, VPC, IAM, S3, Route 53 – Cloud compute, networking and storage
+Linux – Server environment and shell automation
 Terraform – Infrastructure-as-Code for AWS provisioning
 Docker – Containerization of applications
-Kubernetes (EKS) – Orchestration & deployment management
+Kubernetes (EKS) – Orchestration and deployment management
 Git & GitHub – Version control and collaboration
 
  Architecture Flow:
 
-Terraform provisions VPC, subnets, and EC2 instances on AWS.
+Terraform provisions VPC, subnets and EC2 instances on AWS.
 Docker builds lightweight images for microservices.
 Kubernetes deploys containers across nodes for scalability.
 Networking and IAM policies ensure secure communication between services.
